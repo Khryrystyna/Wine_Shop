@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap"); /* font-family: 'Aguafina Script', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+body {
+  
+  color: white;
+  
+}
+.background-body{
+  background: #261e1c;
+}
+
+.background-footer{
+  background-color:#1b1613
+}
+.background-footer-2{
+  background-color:black
+}
+section {
+  padding: 50px 0 100px;
+}
+.logo {
+  height: 44px;
+  width: 176px;
+}
+.nav-shadow {
+  background: rgb(12, 12, 12, 0.7);
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: #c8693a;
+}
+.picture-position {
+  margin-top: 10%;
+}
+.litlle-picture {
+  margin-top: 65%;
+  width: 100px;
+  height: 100px;
+  border: solid 0.1px;
+  float: left;
+  color: #898082;
+}
+
+.btn-orange {
+  background-color: #c8693a;
+  color: white;
+  margin-right: 10px;
+  padding: 12px 20px;
+}
+.btn-orange:hover {
+  background-color: #e45d19;
+  color: white;
+}
+.green {
+  color: green;
+  margin-top: 10%;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+}
+h2 {
+  font-family: "Prata", serif;
+  font-size: 22px;
+}
+.code {
+  margin-top: 8px;
+  font-family: "Great Vibes", cursive;
+  font-size: 21px;
+}
+.price {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+input {
+  margin-bottom: 5%;
+}
+.description {
+  margin-top: 10%;
+  font-family: "Rubik", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+.blue {
+  border-bottom: 2px solid blue;
+  width: 16%;
+  position: absolute;
+  margin-top: -2px;
+}
+.white-underline {
+  border-bottom: solid 1px white;
+}
+.picture-position{
+  width: 400px;
+ }
+
+a:hover {
+  text-decoration: none;
+  color: #c8693a;
+}
+.social {
+  display: flex;
+  justify-content: center;
+}
+.social{
+  display: flex;
+  justify-content:left;
+  padding: 0px;
+  margin: 0;
+  
+}
+
+.social a {
+  height: 20px;
+  width: 20px;
+  padding: 0px;
+  border: 15px;
+  margin: 10px;
+}
+.contact-form{
+  padding:50px 0 0;
+}
+.content-section {
+  margin: 0 50px 0;
+  
+}
+.background-footer{
+  padding: 10px 0 ;
+}
+ 
+ .incta-cork,
+ .incta-bottles,
+ .incta-man,
+ .incta-grapes,
+ .incta-fruit, 
+ .incta-glass{
+   margin-right: 10px;
+   margin-bottom: 10px;
+ }
+ .background-footer-2{
+  padding: 10px 50px ; 
+ }
+ .text-title-reseved{
+  text-align: end;
+ }
+ .text-title {
+  font-family: "Prata", serif;
+  font-size: 48px;
+  color: white;
+  margin: 20px 0px 40px 0px;
+}
+.the-beginning-text {
+  color: #898082;
+  font-family: "Rubik", sans-serif;
+  font-size: 17px;
+  margin: 10px 0px;
+}
+.orange {
+  color: #c8693a;
+}
+.the-beginning-name {
+  font-family: "Prata", serif;
+  font-size: 28px;
+  margin: 10px 0px;
+}

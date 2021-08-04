@@ -1,0 +1,736 @@
+/* Khrystyna  */
+
+@import url("https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap"); /* font-family: 'Aguafina Script', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+/* Не рухати */
+body {
+  color: white;
+}
+.background-body {
+  background: #261e1c;
+}
+
+.background-footer {
+  background-color: #1b1613;
+}
+.background-footer-2 {
+  background-color: black;
+}
+
+section {
+  padding: 50px 0 100px;
+}
+
+.btn-orange {
+  background-color: #c8693a;
+  color: white;
+  margin-right: 10px;
+  padding: 12px 20px;
+}
+.btn-orange:hover {
+  background-color: #e45d19;
+  color: white;
+}
+.btn-white {
+  border: solid 2px white;
+  background-color: transparent;
+  padding: 10px 20px;
+}
+.btn-white:hover {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+.orange {
+  color: #c8693a;
+}
+.bg {
+  background-attachment: fixed;
+  min-height: 35vh;
+  background-size: cover;
+  background-position: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.text-subtitle {
+  font-family: "Great Vibes", cursive;
+  font-size: 28px;
+  color: #c8693a;
+  margin: 20px 0px 20px 0px;
+}
+
+.text-title {
+  font-family: "Prata", serif;
+  font-size: 48px;
+  color: white;
+  margin: 20px 0px 40px 0px;
+}
+.text-paragraph {
+  color: #898082;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  margin: 20px 0px 40px 0px;
+}
+.arrow {
+  width: 6%;
+}
+/* не рухати */
+
+/* Vasyl */
+.vasyl {
+  background-image: url(../img/bottle-and-grapes-on-table.webp);
+  background-size: cover;
+}
+.cali-logo {
+  width: 200px;
+}
+
+.logo-icon {
+  display: flex;
+  height: 44px;
+  width: 176px;
+}
+.menu a {
+  display: block;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin: 10px;
+  text-decoration: unset;
+}
+.social {
+  display: flex;
+  justify-content: center;
+}
+.social a {
+  height: 20px;
+  width: 20px;
+  padding: 0px;
+  border: 15px;
+  margin: 10px;
+}
+.clock {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px;
+}
+.menu a:hover {
+  color: #e45d19;
+}
+@media (min-width: 560px) {
+  .words {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .menu {
+    display: flex;
+  }
+}
+.verh {
+  font-family: "Prata", serif;
+  font-size: 22px;
+  color: #ffffff;
+}
+.capaa {
+  background-image: url(../img/bottle-and-cheese-on-table.webp);
+  background-size: cover;
+  margin: 12px;
+}
+.capab {
+  background-image: url(../img/two-glasses.webp);
+  background-size: cover;
+  margin: 12px;
+}
+.capac {
+  background-image: url(../img/capac.webp);
+  background-size: cover;
+  margin: 12px;
+}
+.stri {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.textblock {
+  height: 400px;
+  width: 200px;
+}
+.advan {
+  display: block;
+  text-align: center;
+}
+.soave {
+  width: 100%;
+}
+/* Khrystyna  */
+
+.shop-wines {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+}
+
+.picture-wrapper-m {
+  display: flex;
+  justify-content: center;
+  display: block;
+  margin: auto;
+}
+.cta-discover {
+  background-image: url(../img/optimized_man-and-woman.webp);
+}
+
+.text-wine {
+  font-family: "Great Vibes", cursive;
+  font-size: 34px;
+  color: #c8693a;
+  margin: 20px 0px 20px 0px;
+}
+.text-discover {
+  font-family: "Prata", serif;
+  font-size: 84px;
+  color: white;
+  margin: 20px 0px 40px 0px;
+}
+.text-p {
+  color: #898082;
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  margin: 20px 0px 60px 0px;
+}
+
+.picture-shelf {
+  width: 100%;
+}
+.picture-section {
+  margin: 0 60px;
+}
+.the-beginning-date {
+  font-family: "Great Vibes", cursive;
+  font-size: 18px;
+  margin: 40px 0px 20px;
+}
+.the-beginning-name {
+  font-family: "Prata", serif;
+  font-size: 28px;
+  margin: 10px 0px;
+}
+.strip {
+  margin: 10px 0px;
+}
+.the-beginning-text {
+  color: #898082;
+  font-family: "Rubik", sans-serif;
+  font-size: 17px;
+  margin: 10px 0px;
+}
+
+.text-paragraph-a {
+  font-family: "Prata", serif;
+  font-size: 18px;
+  margin: 10px 0px;
+}
+
+.history-content-section {
+  margin: 0 60px;
+}
+
+.about-in {
+  background-image: url(../img/soave-backround.webp);
+  background-size: cover;
+  width: 100%;
+  min-height: 35vh;
+  background-position: right;
+  margin: auto;
+}
+/* .varieties-of-wine {
+  margin: 20px 20px 20px 280px;
+} */
+
+.crafted-by-our-winemakers-text {
+  text-align: center;
+  color: #c8693a;
+  padding: 50px;
+  font-family: "Aguafina Script", cursive;
+}
+
+.discover-our-wines-inside-text {
+  text-align: center;
+  color: #ffffff;
+}
+
+.find-your-ideal-text {
+  text-align: center;
+  color: #ffffff;
+}
+
+/*Juliya*/
+
+.header-section {
+  display: grid;
+  text-align: center;
+  padding: 0px 15px 0px 15px;
+  margin-top: 30px;
+  font: inherit;
+  vertical-align: baseline;
+  justify-content: center;
+}
+
+.section-inner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.page-name {
+  font-family: "Great Vibes", cursive;
+  font-size: 14px;
+  color: #c8693a;
+  margin: 10px 0px 10px 0px;
+}
+
+.title {
+  font-family: "Prata", serif;
+  font-size: 34px;
+  color: white;
+  margin: 10px 0px 10px 0px;
+}
+
+.text-content {
+  display: flex;
+  color: #898082;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  max-width: 100%;
+  word-wrap: break-word;
+  margin: 20px 0px 10px 0px;
+}
+
+/*Testimonial-section*/
+
+.carousel-button {
+  size: 1px;
+  margin: 20px;
+  background-color: #c8693a;
+  box-sizing: content-box;
+}
+.carousel-item {
+  height: 200px;
+  margin-top: 15px;
+}
+
+.carousel-caption {
+  width: 70%;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: #c8693a;
+  box-sizing: border-box;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  cursor: pointer;
+  padding: 5px;
+  text-align: center;
+  margin-top: 20px;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: #c8693a;
+  border-radius: 100%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  top: 50%;
+  position: absolute;
+}
+/*BLOG section*/
+
+.blog-section-content {
+  display: flex;
+  height: 450px;
+  width: 100%;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  align-items: center;
+  border: 1px solid rgba(33, 39, 54, 0.12);
+}
+
+/*question*/
+.picture-wrapper-faq {
+  justify-content: start;
+  align-items: flex-start;
+}
+.faq-section {
+  padding: 50px 0px;
+}
+.faq-section-inner {
+  height: 100%;
+  margin: 0px auto;
+  padding: 0px 24px;
+  word-wrap: break-word;
+}
+.faq-section-content {
+  margin: 0;
+  padding: 0;
+  min-height: 400px;
+}
+
+.header-section-faq {
+  justify-content: left;
+  margin-top: 30px;
+  padding: 0px 15px 0px 15px;
+  font: inherit;
+  min-width: 430px;
+}
+.accordion-wrapper {
+  align-items: flex-start;
+}
+.accordion-item {
+  border: none !important;
+  position: relative;
+  cursor: pointer;
+}
+.accordion-item-title {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  position: relative;
+  color: white;
+  background: #261e1c;
+  font-family: Prata, serif;
+  font-size: 18px;
+  height: 45px;
+  cursor: pointer;
+}
+.accordion-item-title::before {
+  content: "+";
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 20px;
+  font-size: 24px;
+}
+.accordion-item-content {
+  position: relative;
+  color: #898082;
+  background: #261e1c;
+  font-family: Rubik, sans-serif;
+  font-size: 14px;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  border-bottom: 1px solid #777;
+}
+.accordion-item.active .accordion-item-content {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.accordion-item.active .accordion-item-title::before {
+  content: "-";
+}
+/*icon-section*/
+.mini-icons {
+  padding: 50px 0px 120px;
+}
+.item {
+  margin: -30px -15px 0px;
+}
+.icons {
+  margin-top: 30px;
+  padding: 0px 15px;
+}
+.icon-panel-wrapper-inner {
+  position: relative;
+  background: #342e2e;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.mini-icon {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(0, -50%);
+  color: #c8693a !important;
+  width: 30px;
+  height: 30px;
+  background: #342e2e;
+  border-radius: 50%;
+}
+.icon-title {
+  color: white;
+  font-family: Prata, serif;
+  font-size: 18px;
+}
+.underline {
+  color: #c8693a;
+  height: 2px;
+  width: 15%;
+}
+.icon-text {
+  color: #898082;
+  font-family: Rubik, sans-serif;
+  font-size: 14px;
+}
+.video {
+  background-image: url(../img/bg-video.png);
+  min-height: 600px;
+}
+.icon-play {
+  margin-bottom: 20px;
+}
+.text-decoration-p {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.wine-text {
+  font-size: 32px;
+  font-family: "Prata", serif;
+  margin-top: 40px;
+}
+
+.join-arrow {
+  width: 2%;
+}
+
+.red-wines-container {
+  background-image: url(../img/bg-red-wine.webp);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 400px;
+  /* min-width: 700px; */
+  background-position: left;
+  position: relative;
+  margin-top: 10%;
+}
+.red-wines-h1 {
+  position: absolute;
+  top: 28%;
+  left: 6%;
+  font-family: "Rubik", sans-serif;
+  font-size: 28px;
+}
+.red-wines-underline {
+  color: #c8693a;
+  height: 2px;
+  width: 15%;
+  position: absolute;
+  top: 37%;
+  left: 6%;
+}
+.white-wines-container {
+  background-image: url(../img/bg-white-wine.webp);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 400px;
+  /* min-width: 700px; */
+  background-position: left;
+  position: relative;
+  margin-top: 10%;
+}
+.red-wine-p {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  position: absolute;
+  top: 44%;
+  left: 6%;
+}
+.red-wines-bnt {
+  position: absolute;
+  top: 60%;
+  left: 6%;
+}
+.personal-discount {
+  background: rgba(200, 105, 58, 0.82);
+  background-image: url(../img/bg-discount.png);
+  background-size: cover;
+  position: relative;
+  min-height: 350px;
+}
+.personal-discount h1 {
+  margin-top: 5%;
+  margin-left: 3%;
+  font-family: "Prata", serif;
+  font-size: 34px;
+}
+.personal-discount p {
+  margin-top: 5%;
+  margin-left: 3%;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  margin-bottom: 10%;
+}
+.personal-discount a {
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+@media (width: 560px) {
+  .red-wines-container {
+    min-width: 700px;
+  }
+}
+
+.callback-form-input{
+  background: transparent;
+  padding: 10px 90px 15px 10px;
+  color: var(--c-grey);
+  margin: 30px 5px 30px;
+  border: none;
+  border-bottom: 1px solid grey;
+  width: 100%;
+}
+
+.callback-form-submit {
+  text-align: center;
+  border: none;
+  margin: 0px 5px 30px;
+  width: 100%;
+}
+.btn-orange {
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #c8693a;
+}
+.social {
+  display: flex;
+  justify-content: left;
+  padding: 0px;
+  margin: 0;
+}
+.contact-form {
+  padding: 50px 0 0;
+}
+.content-section {
+  margin: 0 50px 0;
+}
+.background-footer {
+  padding: 10px 0;
+}
+
+.incta-cork,
+.incta-bottles,
+.incta-man,
+.incta-grapes,
+.incta-fruit,
+.incta-glass {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.background-footer-2 {
+  padding: 10px 50px;
+}
+.text-title-reseved {
+  text-align: end;
+ }
+
+
+ .cart-trigger_dq0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  width: 64px;
+  height: 64px;
+  right: 64px;
+  z-index: 2;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 1px rgb(33 39 54 / 4%), 0 2px 4px rgb(33 39 54 / 16%);
+  box-shadow: 0 0 1px rgb(33 39 54 / 4%), 0 2px 4px rgb(33 39 54 / 16%);
+}
+
+
+/* REQUEST RECEIVED MODAL */
+#request-received{
+  display: none;
+
+}
+.modal-request-received{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+  box-sizing: border-box;
+}
+.request-received-container{
+  display: none;
+ text-align: center;
+ background: #261e1c;;
+ padding: 80px 10px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content  : center;
+ position: relative;
+}
+.request-received-title{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 0;
+
+}
+.request-received-primary-msg{
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 0;
+
+}
+.request-received-secondary-msg{
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+  width: 185px;
+  margin: 0;
+
+}
+
+
+
+ 
